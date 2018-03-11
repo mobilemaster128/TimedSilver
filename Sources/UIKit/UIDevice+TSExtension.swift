@@ -124,14 +124,14 @@ public extension UIDevice {
     }
     
     /// IDFA
-    var ts_IDFA: String {
-        return ASIdentifierManager.shared().advertisingIdentifier.uuidString
-    }
+    //var ts_IDFA: String {
+    //    return ASIdentifierManager.shared().advertisingIdentifier.uuidString
+    //}
     
     /// IDFV
-    var ts_IDFV: String {
-        return UIDevice.current.identifierForVendor!.uuidString
-    }
+    //var ts_IDFV: String {
+    //    return UIDevice.current.identifierForVendor!.uuidString
+    //}
     
 }
 
